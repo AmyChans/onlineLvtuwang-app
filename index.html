@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+        <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+        <link rel="stylesheet" type="text/css" href="style/resets.css">
+        <link rel="stylesheet" type="text/css" href="style/index.css">
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>汽车票查询</title>
+</head>
+
+<body>
+
+   <!----------公用头部部分---------->
+	<header>
+    	<a href="javascript:;" class="a-l"></a>
+    	<h1>汽车票</h1>
+        <span><a href="#"></a></span>
+    </header>
+    
+    <!----------主要内容部分---------->
+    <section>
+    <div class="index-banner"><img src="img/booking/index-banner.png" width="100%"></div>
+    <div class="notice">通知：请绑定手机号，以便及时获取车票信息车票信息车票信息。</div>
+    <div class="main">
+       <div class="city">
+          <div class="citys"><label>出发城市</label><input type="text" value="北京" placeholder="请输入出发城市" readonly id="start" onclick="javascrtpt:window.location.href='pages/citys.html'" ></div>
+          <div class="citys"><label>到达城市</label><input type="text" value="济南" placeholder="请输入到达城市" readonly id="end" onclick="javascrtpt:window.location.href='pages/citys.html'"></div>
+       </div>
+       <div class="city-change" onClick="change()"></div>
+       <div class="time"><label>出发时间</label><input type="text" value="2016-01-18&nbsp;&nbsp;周一" placeholder="请输入出发时间" readonly ></div>
+       <div class="btn"><input type="button" value="查&nbsp;&nbsp;询" onclick="javascrtpt:window.location.href='pages/list.html'" ></div>
+       <div class="history">
+          <div class="history-up">
+            <span class="his-line"></span>
+            <span class="his-title">历史查询</span>
+            <span class="his-line"></span>
+          </div>
+          <div class="history-down">
+            <ul>
+               <li>
+                 <p>上海</p><p></p><p>南宁</p>
+               </li>
+               <li>
+                 <p>广州</p><p></p><p>呼和浩特</p>
+               </li>
+               <li>
+                 <p>乌鲁木齐</p><p></p><p>哈尔滨</p>
+               </li>
+            </ul>
+          </div>
+       </div>
+    </div>
+    
+    	
+    </section>
+    
+    <!----------公用底部部分---------->
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

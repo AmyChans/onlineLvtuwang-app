@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+section{
+	padding-bottom:90px;
+	background:#effffc;
+}
+.checi{
+	width:100%;
+	min-height:80px;
+	background:#FFF;
+}
+.checi ul{
+	width:100%;
+	height:100%;
+}
+.checi ul li:first-child{
+	border-bottom:1px dashed #ddd;
+	width:94%;
+	padding:0 3%;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+}
+.checi ul li:first-child span{
+	display:inline-block;
+}
+.checi ul li:first-child span:first-child{
+	float:left;
+}
+.checi ul li:first-child span:last-child{
+	float:right;
+	color:#ff9c00;
+}
+.checi ul li:nth-child(2){
+	padding:10px 0 6px 0;
+}
+.checi ul li:nth-child(2) .cc{
+	float:left;
+}
+.checi ul li:nth-child(2) .checi-l{
+	width:34%;
+}
+.checi ul li:nth-child(2) .checi-m{
+	width:32%;
+	height:60px;
+	padding-top:10px;
+}
+.checi ul li:nth-child(2) .checi-r{
+	width:34%;
+}
+@media screen and (max-width:320px){
+	.checi ul li:nth-child(2) .checi-l{
+	width:32%;
+    }
+	.checi ul li:nth-child(2) .checi-m{
+		width:36%;
+	}	
+	.checi ul li:nth-child(2) .checi-r{
+	width:32%;
+    }
+}
+@media screen and (min-width:480px) and (max-width:768px){
+	.checi ul li:nth-child(2) .checi-l{
+	width:35%;
+    }
+	.checi ul li:nth-child(2) .checi-m{
+		width:30%;
+	}
+	.checi ul li:nth-child(2) .checi-r{
+	width:35%;
+    }
+}
+@media screen and (min-width:900px){
+	.checi ul li:nth-child(2) .checi-l{
+	width:40%;
+    }
+	.checi ul li:nth-child(2) .checi-m{
+		width:20%;
+	}
+	.checi ul li:nth-child(2) .checi-r{
+	width:40%;
+    }
+}
+
+.checi ul li:nth-child(2) .checi-l span,.checi ul li:nth-child(2) .checi-r span{
+	display:block;
+	width:100%;
+}
+.checi ul li:nth-child(2) .checi-l span:first-child,.checi ul li:nth-child(2) .checi-r span:first-child{
+	font-size:20px;
+	color:#454545;
+	height:40px;
+	line-height:45px;
+}
+.checi ul li:nth-child(2) .checi-l span:last-child,.checi ul li:nth-child(2) .checi-r span:last-child{
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	color:#999;
+}
+.checi ul li:nth-child(2) .checi-m span{
+	display:block;
+	width:100%;
+	font-size:12px;
+	height:12px;
+}
+.checi ul li:nth-child(2) .checi-m span i.m-l,.checi ul li:nth-child(2) .checi-m span i.m-r{
+	display:block;
+}
+.checi ul li:nth-child(2) .checi-m span i.m-l{
+	float:left;
+	width:16px;
+	height:10px;
+	border-bottom:1px solid #ddd;
+}
+.checi ul li:nth-child(2) .checi-m span i.m-r{
+	float:right;
+	width:16px;
+	height:10px;
+	border-bottom:1px solid #ddd;
+}
+.checi ul li:nth-child(3){
+	height:25px;
+	color:#35b0ff;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+	padding-left:3%;
+	font-size:14px;
+	padding-bottom:5px;
+}
+.checi ul li:nth-child(3) a{
+	color:#35b0ff;
+	width:100%;
+	height:100%;
+	display:block;
+}
+.checi ul li:nth-child(3) a img{
+	vertical-align:middle;
+	margin-top:-2px;
+}
+.passenger{
+	width:100%;
+	min-height:80px;
+	border-top:1px solid #ddd;
+	margin-top:10px;
+	background:#FFF;
+}
+.passenger ul li{
+	text-align:left;
+	height:40px;
+	line-height:40px;
+	padding:0 3%;
+	border-bottom:1px solid #ddd;
+}
+.passenger ul li.p-title{
+	color:#454545;
+}
+.passenger ul li.p-title i{
+	font-style:normal;
+	font-size:14px;
+	color:#999;
+}
+.passenger ul li.p-title span{
+	display:block;
+	float:right;
+	width:40px;
+	height:40px;
+	background:url(../img/booking/checi-add.png) no-repeat right center;
+	background-size:20px;
+}
+.passenger ul li.p-title span a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.passenger ul li.p-content{
+	width:94%;
+	margin-left:3%;
+	height:90px;
+	border-bottom:1px solid #ddd;
+	padding-left:0;
+}
+
+.passenger ul li.p-content div{
+	float:left;
+	width:12%;
+	height:100%;
+}
+.passenger ul li.p-content div.shanchu{
+	background:url(../img/booking/checi-shanchu1.png) no-repeat left center;
+	background-size:20px;
+}
+.passenger ul li.p-content div.info{
+	width:88%;
+}
+@media screen and (min-width:720px) {
+	.passenger ul li.p-content div{
+		width:6%;
+	}
+	.passenger ul li.p-content div.info{
+		width:94%;
+	}
+}
+.passenger ul li.p-content div.info a{
+	display:block;
+	width:100%;
+	color:#666;
+	padding:15px 0;
+	position:relative;
+}
+.passenger ul li.p-content div.info a::after{
+	content:'';
+	background:url(../img/booking/piblic-arrow.png) no-repeat right center ;
+	background-size:8px;
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:35px;
+	right:0;
+}
+.passenger ul li.p-content div.info a span{
+	display:block;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	color:#454545;
+	font-size:14px;
+}
+.passenger ul li.p-content div.info a span:nth-child(2){
+	color:#666;
+	font-size:14px;
+}
+.passenger ul li.p-content div.info a i{
+	font-style:normal;
+	color:#ff9c00;
+	font-size:14px;
+}
+.passenger ul li.p-last{
+	margin-left:0;
+	padding-left:3%;
+}
+.passenger ul li.p-content div.qupiao a{
+	padding:0;
+}
+.passenger ul li.p-content div.info a span:nth-child(3){
+	font-size:14px;
+	color:#666;
+}
+.insurance{
+	width:94%;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd; 
+	height:40px;
+	line-height:40px;
+	margin-top:10px;
+	padding:0 3%;
+	text-align:left;
+	color:#454545;
+	background:#FFF;
+}
+.insurance a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#454545;
+	position:relative;
+}
+.insurance a::after{
+	content:'';
+	width:20px;
+	height:20px;
+	top:10px;
+	right:0;
+	position:absolute;
+	background:url(../img/booking/piblic-arrow.png) no-repeat right center;
+	background-size:8px;
+}
+.insurance span{
+	display:block;
+	width:20%;
+	float:left;
+}
+.insurance i{
+	display:block;
+	float:left;
+	width:40%;
+	font-style:normal;
+	font-size:16px;
+	color:#999;
+}
+.insurance i.insurance-p{
+	text-align:right;
+	padding-right:6%;
+	width:34%;
+}
+.announce{
+	width:90%;
+	padding:10px 5% 5px 5%;
+}
+.announce p{
+	text-align:left;
+	font-size:14px;
+	color:#999;
+}
+footer{
+	border-top:1px solid #ddd;
+	background-color:#FFF;
+	text-align:left;
+	padding:0 3%;
+	width:94%;
+}
+footer span {
+	display:block;
+	float:left;
+	height:100%;
+}
+footer .f-1{
+	color:#454545;
+	width:20%;
+}
+footer .f-2{
+	width:15%;
+	color:#ff9c00;
+	font-size:18px;
+}
+footer .f-3{
+	width:35%;
+	background:url(../img/booking/checi-mxdown.png) no-repeat left center;
+	background-size:16px;
+}
+footer .f-31{
+	width:35%;
+	background:url(../img/booking/checi-mxup.png) no-repeat left center;
+	background-size:16px;
+}
+footer .f-4{
+	width:30%;
+}
+footer .f-4 input{
+	width:100%;
+	height:38px;
+	background:#ff9c00;
+	border:none;
+	border-radius:4px;
+	color:#FFF;
+	font-size:16px;
+}
+
+
+.zhezhao{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.4);
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	display:none;
+}
+.mx{
+	width:100%;
+	min-height:80px;
+	background:#fff;
+	position:fixed;
+	bottom:49px;
+	left:0;
+	padding-bottom:10px;
+	display:none;
+}
+.mx ul{
+	width:100%;
+	height:100%;
+}
+.mx ul li{
+	height:40px;
+	line-height:40px;
+	text-align:left;
+	padding:0 3%;
+}
+.mx ul li:first-child{
+	border-bottom:1px solid #ddd;
+	height:45px;
+	line-height:45px;
+	font-size:16px;
+	padding-left:3%;
+	color:#454545;
+}
+.mx ul li span{
+	float:right;
+}
+.mx ul li span i{
+	font-style:normal;
+}
+
+.all-zhezhao{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.4);
+	z-index:11;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	display:none;
+}
+.leave{
+	width:80%;
+	height:120px;
+	background:#FFF;
+	border-radius:4px;
+	position:fixed;
+	top:50%;
+	left:10%;
+	margin-top:-60px;
+	z-index:12;
+	display:none;
+}
+.leave-up{
+	height:70px;
+	line-height:70px;
+	color:#454545;
+	border-bottom:1px solid #ddd;
+	box-sizing:border-box;
+}
+.leave-down{
+	height:50px;
+	line-height:50px;
+}
+.leave-down span,.leave-down input{
+	display:block;
+	width:50%;
+	float:left;
+	height:50px;
+	line-height:50px;
+	color:#ff9c00;
+}
+.leave-down input{
+	border:none;
+	background:none;
+}
+.leave-down span i{
+	display:block;
+	height:30px;
+	border-right:1px solid #ddd;
+	margin-top:10px;
+	line-height:30px;
+	font-style:normal;
+	color:#999;
+}
+
+
+
+
+

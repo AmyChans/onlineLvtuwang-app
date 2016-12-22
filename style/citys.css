@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+.search{
+	padding:12px 3%;
+	width:94%;
+	background:#fff;
+	position:fixed;
+}
+.search input{
+	width:92%;
+	height:36px;
+	border:none;
+	border:1px solid #ddd;
+	border-radius:6px;
+	padding-left:8%;
+	background:url(../img/booking/city-s.png) no-repeat 3px center;
+	background-size:20px;
+	color:#666;
+}
+.location{
+	margin-top:62px;
+}
+.location ul{
+	width:100%;
+	min-height:50px;
+	margin-bottom:5px;
+}
+.location ul li{
+	padding:5px 3%;
+	text-align:left;
+}
+.location ul li.location-title{
+	background-color:#eafefa;
+	color:#454545;
+}
+.location ul li span{
+	display:block;
+	float:left;
+	width:20%;
+	margin:5px 4% 0 0;
+	border:1px solid #eee;
+	border-radius:6px;
+	padding:5px 4%;
+	text-align:center;
+}
+.location ul li span.locanow{
+	color:#35b0ff;
+}
+.location ul.paixu li.location-title{
+	border-bottom:none;
+	padding-left:3%;
+}
+.location ul.paixu li{
+	border-bottom:1px solid #eee;
+	padding-left: 8%;
+}
+.zm{
+	width:8%;
+	height:82%;
+	background:#fff;
+	position:fixed;
+	right:0;
+	top:106px;
+	color:#35b0ff;
+}
+.zm ul li{
+	font-size:14px;
+	line-height:18px;
+}
+@media screen and (max-width:320px){
+	.zm ul li{
+		font-size:12px;
+		line-height:13px;
+	}
+}
+@media screen and (min-width:768px){
+	.zm ul li{
+		font-size:16px;
+		line-height:24px;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+        <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+        <link rel="stylesheet" type="text/css" href="../style/resets.css">
+        <link rel="stylesheet" type="text/css" href="../style/checkstand.css">
+        <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" >
+           $(document).ready(function(e) {
+               $(".paychoose").click(function(){
+				   $(this).addClass("paychoose-choose").parent().siblings().find(".paychoose").removeClass("paychoose-choose");
+				   });
+        });
+        </script>
+        <title>汽车票查询</title>
+</head>
+
+<body>
+
+   <!----------公用头部部分---------->
+	<header>
+    	<a href="information.html" class="a-l"></a>
+    	<h1>收银台</h1>
+        <span><a href="#"></a></span>
+    </header>
+    
+    <!----------主要内容部分---------->
+    <section>
+    	<div class="paytime">请在<i>15</i>分钟<i>19</i>秒内支付完成，逾将自动取消订单。</div>
+    	<div class="payinfo">
+           <ul>
+              <li>北京——济南</li>
+              <li>订单总额：<i>￥158.5</i></li>
+              <li>出发车站：<span>丽泽桥客运站</span></li>
+              <li>出发时间：<span>2016-01-12</span> <span>15:06:00</span></li>
+           </ul>
+        </div>
+    
+    	<div class="payway">
+           <ul>
+              <li>
+                 <span class="payicon"></span>
+                 <span class="payname payhot">支付宝支付更放心<br><i>使用支付宝，安全快捷更放心。</i></span>
+                 <span class="paychoose"></span>
+              </li>
+              <li>
+                 <span class="payicon payweixin"></span>
+                 <span class="payname ">微信支付<br><i>微信用户支付方式。</i></span>
+                 <span class="paychoose"></span>
+              </li>
+              <li>
+                 <span class="payicon payyinlian"></span>
+                 <span class="payname ">微信支付<br><i>微信用户支付方式。</i></span>
+                 <span class="paychoose"></span>
+              </li>
+           </ul>
+        </div>
+    
+    
+    
+    
+    </section>
+    
+    <!----------公用底部部分---------->
+    <footer>
+       <span class="f-1">订单总额</span>
+        <span class="f-2">￥58</span>
+        <span class="f-3"></span>
+        <span class="f-4"><input type="button" value="去支付"></span>
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

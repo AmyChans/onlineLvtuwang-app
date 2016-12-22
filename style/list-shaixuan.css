@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.sx{
+	width:100%;
+	min-height:80px;
+}
+.sx ul{
+	padding-top:15px;
+}
+.sx ul li{
+	width:95%;
+	margin-left:4%;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #ddd;
+	text-align:left;
+	color:#666;
+	padding-left:1%;
+}
+.sx ul li.sx-title{
+	width:94%;
+	height:40px;
+	border-bottom:1px solid #ddd;
+	text-align:left;
+	padding:0 3%;
+	line-height:40px;
+	color:#35b0ff;
+	font-weight:700;
+	margin-left:0;
+	background:none;
+}
+.sx ul li.current{
+	background:url(../img/booking/sx-check.png) no-repeat 96% center;
+	background-size:5%;
+	
+}
+@media screen and (min-width:480px) and (max-width:1024px){
+	.sx ul li.current{
+		background-size:3%;
+	}
+}
+@media screen and (min-width:1024px){
+	.sx ul li.current{
+		background-size:2%;
+	}	
+}
+.sx ul li.sx-last{
+	width:95%;
+	margin-left:0;
+	padding-left:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

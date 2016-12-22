@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+section{
+	margin-bottom:90px;
+}
+.insurance{
+	width:100%;
+	min-height:80px;
+}
+.insurance li{
+	width:94%;
+	padding:0 3%;
+	border-bottom:1px solid #ddd;
+	height:45px;
+}
+.check{
+	width:16px;
+	height:16px;
+	border:1px solid #ddd;
+	border-radius:50%;
+	float:left;
+	margin-top:12.5px;
+}
+.check-current{
+	width:16px;
+	height:16px;
+	border:1px solid #35b0ff;
+	border-radius:50%;
+	float:left;
+	margin-top:12.5px;
+	background:url(../img/booking/add-xz.png) no-repeat center;
+	background-size:8px;
+}
+.check-r{
+	float:left;
+	width:80%;
+	height:45px;
+	line-height:45px;
+	margin-left:10px;
+	text-align:left;
+}
+
+.insurance-shuoming{
+	width:100%;
+	min-height:45px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+	margin-top:40px;
+}
+.insurance-shuoming span.sm-title{
+	display:block;
+	width:94%;
+	height:45px;
+	line-height:45px;
+	text-align:left;
+	padding:0 3%;
+	background:url(../img/booking/checi-mxup.png) no-repeat 97% center;
+	background-size:14px;
+}
+.insurance-shuoming span.sm-title1{
+	background:url(../img/booking/checi-mxdown.png) no-repeat 97% center;
+	background-size:14px;
+}
+.insurance-shuoming .sm-content{
+	display:none;
+	width:94%;
+	padding:10px 3%;
+	line-height:25px;
+	font-size:14px;
+	color:#999;
+	text-indent:2em;
+	text-align:left;
+	text-justify:auto;
+	border-top:1px solid #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

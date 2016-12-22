@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+section{
+	padding-bottom:90px;
+}
+.notice{
+	width:100%;
+	min-height:80px;
+}
+.notice li{
+	width:92%;
+	min-height:50px;
+	padding:8px 4%;
+	border-bottom:1px solid #ddd;
+}
+.notice li:last-child{
+	border-bottom:none;
+}
+.notice li p{
+	text-align:left;
+	text-justify:auto;
+}
+.notice-title{
+	font-weight:700;
+	color:#454545;
+	height:36px;
+	line-height:36px;
+}
+.notice-content{
+	line-height:20px;
+	font-size:14px;
+	color:#999;
+}
+.notice li p span{
+	color:#ff9c00;
+}
